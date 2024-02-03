@@ -1,0 +1,17 @@
+{
+  "name": "my-common",
+  "version": "1.0.0",
+  "description": "Common",
+  "main": "dist/index.ts",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "build:check": "tsc --noEmit",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "clean-win": "rmdir dist /s /q"
+  },
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "ISC"
+}
