@@ -3,5 +3,5 @@ export type Profile = {
 }
 
 export function add(i: number, j: number) {
-  return i + j + 2;
+  return i + j;
 }

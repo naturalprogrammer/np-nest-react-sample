@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
+    "my-common",
     "my-nest",
-    "my-react",
-    "my-common"
-  ]
+    "my-react"
+  ],
+  "devDependencies": {
+    "tsc-multi": "^1.1.0"
+  }
 }
