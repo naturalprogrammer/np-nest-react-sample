@@ -1,9 +1,10 @@
 import {Injectable} from '@nestjs/common';
-import {add} from "my-common/dist/my-math";
+import {add, Profile} from "my-common/dist/my-math";
 
 @Injectable()
 export class AppService {
   getHello(): string {
-    return `Hello World! ${add(1, 5)}`;
+    const profile: Profile = {name: "Sanjay"};
+    return `Hello World ${profile.name}! ${add(1, 5)}`;
   }
 }
